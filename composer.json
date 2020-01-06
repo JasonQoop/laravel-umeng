@@ -1,6 +1,6 @@
 {
     "name": "dali/umeng",
-    "description": "umeng for laravel",
+    "description": "umeng push for laravel forked from zhaolong06/laravel-umeng",
     "keywords": [
         "laravel",
         "lumen",
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "zhengzhaolong",
-            "email": "zhaolong0206@gmail.com"
+            "name": "dali",
+            "email": "avrilmaomao@gmailcom"
         }
     ],
     "require": {
