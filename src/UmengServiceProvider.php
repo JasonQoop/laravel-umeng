@@ -1,9 +1,9 @@
 <?php
 
-namespace Zzl\Umeng;
+namespace dali\Umeng;
 
 use Illuminate\Support\ServiceProvider;
-use Zzl\Umeng\Pusher\UmengPusher;
+use dali\Umeng\Pusher\UmengPusher;
 
 class UmengServiceProvider extends ServiceProvider
 {

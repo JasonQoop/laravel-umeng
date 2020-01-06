@@ -1,5 +1,5 @@
 {
-    "name": "dali/umeng",
+    "name": "dali/umeng-push",
     "description": "umeng push for laravel forked from zhaolong06/laravel-umeng",
     "keywords": [
         "laravel",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Zzl\\Umeng\\": "src"
+            "dali\\Umeng\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zzl\\Umeng\\": "tests"
+            "dali\\Umeng\\": "tests"
         }
     },
      "minimum-stability": "stable"

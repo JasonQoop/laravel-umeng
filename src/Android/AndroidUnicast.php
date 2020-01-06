@@ -1,7 +1,7 @@
 <?php
-namespace Zzl\Umeng\Android;
+namespace dali\Umeng\Android;
 
-use Zzl\Umeng\AndroidNotification;
+use dali\Umeng\AndroidNotification;
 
 class AndroidUnicast extends AndroidNotification {
 	function __construct() {

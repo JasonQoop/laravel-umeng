@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Zzl\Umeng\Facades;
+namespace dali\Umeng\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
