@@ -1,6 +1,6 @@
 <?php
 
-namespace dali\Umeng\Exception;
+namespace pmcaff\Umeng\Exception;
 
 use Exception;
 

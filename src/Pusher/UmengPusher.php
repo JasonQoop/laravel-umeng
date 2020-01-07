@@ -1,6 +1,6 @@
 <?php
 
-namespace Zzl\Umeng\Pusher;
+namespace pmcaff\Umeng\Pusher;
 
 class UmengPusher
 {

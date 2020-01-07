@@ -1,8 +1,8 @@
 <?php
-namespace dali\Umeng\IOS;
+namespace pmcaff\Umeng\IOS;
 
-use dali\Umeng\IOSNotification;
-use dali\Umeng\Exception\UmengException;
+use pmcaff\Umeng\IOSNotification;
+use pmcaff\Umeng\Exception\UmengException;
 use Log;
 
 class IOSFilecast extends IOSNotification {

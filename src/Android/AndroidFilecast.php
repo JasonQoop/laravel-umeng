@@ -1,8 +1,8 @@
 <?php
-namespace dali\Umeng\Android;
+namespace pmcaff\Umeng\Android;
 
-use dali\Umeng\AndroidNotification;
-use dali\Umeng\Exception\UmengException;
+use pmcaff\Umeng\AndroidNotification;
+use pmcaff\Umeng\Exception\UmengException;
 use Log;
 
 class AndroidFilecast extends AndroidNotification {

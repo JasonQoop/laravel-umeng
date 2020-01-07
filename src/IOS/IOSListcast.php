@@ -1,7 +1,7 @@
 <?php
-namespace dali\Umeng\IOS;
+namespace pmcaff\Umeng\IOS;
 
-use dali\Umeng\IOSNotification;
+use pmcaff\Umeng\IOSNotification;
 
 class IOSListcast extends IOSNotification {
 	function __construct() {

@@ -1,5 +1,5 @@
 {
-    "name": "dali/umeng-push",
+    "name": "pmcaff/umeng-push",
     "description": "umeng push for laravel forked from zhaolong06/laravel-umeng",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "dali",
+            "name": "pmcaff",
             "email": "avrilmaomao@gmailcom"
         }
     ],
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "dali\\Umeng\\": "src"
+            "pmcaff\\Umeng\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "dali\\Umeng\\": "tests"
+            "pmcaff\\Umeng\\": "tests"
         }
     },
      "minimum-stability": "stable"
