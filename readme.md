@@ -2,7 +2,7 @@
 
 ## 安装
 ```php
-    composer reuqire zzl/umeng   
+    composer reuqire pmcaff/umeng-push 
 ```
   
 ## Laravel 5.* 配置
@@ -10,14 +10,14 @@
 
 ```php
     'provider' => [
-       Zzl\Umeng\UmengServiceProvider::class, 
+       pmcaff\Umeng\UmengServiceProvider::class, 
     ],
 ```
 配置alias:
 
 ```php
     'aliases' => [
-        'Umeng' => Zzl\Umeng\Facades\Umeng::class,
+        'Umeng' => pmcaff\Umeng\Facades\Umeng::class,
     ],
 ```
 
@@ -34,13 +34,13 @@
 打开bootstrap目录下的app.php文件,注册provider:
 
 ```php
-    $app->register(Zzl\Umeng\UmengServiceProvider::class);
+    $app->register(pmcaff\Umeng\UmengServiceProvider::class);
 ```
 
 配置alias:
 
 ```php
-    class_alias('Zzl\Umeng\Facades\Umeng','Umeng');
+    class_alias('pmcaff\Umeng\Facades\Umeng','Umeng');
 ```
 
 生成配置文件:

@@ -1,6 +1,6 @@
 {
-    "name": "zzl/umeng",
-    "description": "umeng for laravel",
+    "name": "pmcaff/umeng-push",
+    "description": "umeng push for laravel forked from zhaolong06/laravel-umeng",
     "keywords": [
         "laravel",
         "lumen",
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "zhengzhaolong",
-            "email": "zhaolong0206@gmail.com"
+            "name": "pmcaff",
+            "email": "avrilmaomao@gmail.com"
         }
     ],
     "require": {
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Zzl\\Umeng\\": "src"
+            "pmcaff\\Umeng\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zzl\\Umeng\\": "tests"
+            "pmcaff\\Umeng\\": "tests"
         }
     },
      "minimum-stability": "stable"

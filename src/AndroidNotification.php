@@ -1,9 +1,9 @@
 <?php
 
-namespace  Zzl\Umeng;
+namespace  pmcaff\Umeng;
 
-use Zzl\Umeng\UmengNotification;
-use Zzl\Umeng\Exception\UmengException;
+use pmcaff\Umeng\UmengNotification;
+use pmcaff\Umeng\Exception\UmengException;
 use Log;
 
 abstract class AndroidNotification extends UmengNotification {

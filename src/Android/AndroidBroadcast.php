@@ -1,7 +1,7 @@
 <?php
-namespace Zzl\Umeng\Android;
+namespace pmcaff\Umeng\Android;
 
-use Zzl\Umeng\AndroidNotification;
+use pmcaff\Umeng\AndroidNotification;
 
 class AndroidBroadcast extends AndroidNotification {
 	function  __construct() {

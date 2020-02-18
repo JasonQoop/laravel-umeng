@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Zzl\Umeng\Pusher;
+namespace pmcaff\Umeng\Pusher;
 
 
-use Zzl\Umeng\IOS\IOSBroadcast;
-use Zzl\Umeng\IOS\IOSCustomizedcast;
-use Zzl\Umeng\IOS\IOSFilecast;
-use Zzl\Umeng\IOS\IOSGroupcast;
-use Zzl\Umeng\IOS\IOSListcast;
-use Zzl\Umeng\IOS\IOSUnicast;
+use pmcaff\Umeng\IOS\IOSBroadcast;
+use pmcaff\Umeng\IOS\IOSCustomizedcast;
+use pmcaff\Umeng\IOS\IOSFilecast;
+use pmcaff\Umeng\IOS\IOSGroupcast;
+use pmcaff\Umeng\IOS\IOSListcast;
+use pmcaff\Umeng\IOS\IOSUnicast;
 use Log;
 class IOSPusher extends Pusher
 {
@@ -19,7 +19,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendBroadcast($predefined= [], $customField= []) {
         $brocast = new IOSBroadcast();
@@ -46,7 +46,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendUnicast($device_tokens = '', $predefined= [], $customField= []) {
         $unicast = new IOSUnicast();
@@ -73,7 +73,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendListcast($device_tokens = '', $predefined= [], $customField= []) {
         $listcast = new IOSListcast();
@@ -99,7 +99,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendFilecast($fileContents = '', $predefined= [], $customField= []) {
         $filecast = new IOSFilecast();
@@ -127,7 +127,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendGroupcast($filter = [], $predefined= [], $customField= []) {
             $groupcast = new IOSGroupcast();
@@ -156,7 +156,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendCustomizedcast($alias = '', $alias_type = '', $predefined= [], $customField= []) {
         $customizedcast = new IOSCustomizedcast();
@@ -186,7 +186,7 @@ class IOSPusher extends Pusher
      * @param array $predefined
      * @param array $customField
      * @return mixed
-     * @throws \Zzl\Umeng\Exception\UmengException
+     * @throws \pmcaff\Umeng\Exception\UmengException
      */
     public function sendCustomizedcastFileId($file_contents = '', $predefined= [], $customField = []) {
         $customizedcast = new IOSCustomizedcast();
